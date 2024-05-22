@@ -1,0 +1,39 @@
+{
+  "name": "cloit-quasar",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "Cloit",
+  "author": "Addis <addisyehasab@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,css,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "@splidejs/vue-splide": "^0.6.12",
+    "quasar": "^2.16.0",
+    "swiper": "^8.4.7",
+    "vue": "^3.4.18",
+    "vue-awesome-swiper": "^5.0.1",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.9.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.8.8",
+    "vite-plugin-checker": "^0.6.4"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
